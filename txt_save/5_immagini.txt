@@ -1,0 +1,67 @@
+IMM 1
+
+Gredy search question machine
+['  is the car parked on a hill or flat natural row?']
+
+Beam search question machine
+['  are there any other structures in the image?', '  are there any other features in the image?', '  are there any other buildings in the vicinity?', '  are there any other structures in the vicinity?', '  are there any other features in the vicinity?']
+
+BeamSearch (0.75, 0.75, 0.7379010915756226, 0.7194088697433472) 
+
+Gredy_search (0.4545454680919647, 0.28747981786727905, 0.0, 0.0)
+
+
+
+IMM 2
+
+Gredy search question machine
+['  are the trees in a single species or multiple directions?']
+
+Beam search question machine
+['  are the trees in a forest or a park?', '  are the trees in a circle?', '  are the trees in a forest?', '  are the trees in a straight line?', '  are the trees in a straight line or curved?']
+
+BeamSearch (1.0, 0.8819171190261841, 0.7862823009490967, 0.7259795665740967)
+
+Gredy_search (0.6000000238418579, 0.4898979663848877, 0.4308869540691376, 0.3760603070259094)
+
+
+
+IMM 3
+
+Gredy search question machine
+['  are there any other colors near the gray roof?']
+
+Beam search question machine
+['how wide is the road?', '  are there any other roads in the area?', '  are there any other grass fields in the area?', '  are there any other shadows in the area?', '  are there any other colors in the area?']
+
+BeamSearch (0.49123844504356384, 0.49123844504356384, 0.0, 0.0)
+
+Gredy_search (0.5555555820465088, 0.49690401554107666, 0.3952103555202484, 0.0)
+
+
+
+IMM 4
+
+Gredy search question machine
+['  are there any people in the lot?']
+
+Beam search question machine
+['  are there any animals in the lot?', 'how wide is the asphalt road?', '  are there any power lines in the image?', '  are there any animals in the grass field?', '  are there any other objects in the parking lot?']
+
+BeamSearch (0.7142857313156128, 0.5532833337783813, 0.0, 0.0)
+
+Gredy_search (0.8571428656578064, 0.7824608087539673, 0.7417848706245422, 0.7034711837768555)
+
+
+
+IMM 5
+
+Gredy search question machine
+['what color are the two cars?']
+
+Beam search question machine
+['  are there any street lights in the image?', '  are there any other objects in the image?', '  is the car parked in a designated parking spot?', '  are there any other colors in the image?', '  are there any other objects in the vicinity?']
+
+BeamSearch (0.875, 0.7395099401473999, 0.616553008556366, 0.0)
+
+Gredy_search (0.6666666865348816, 0.5773502588272095, 0.5108729600906372, 0.0)
