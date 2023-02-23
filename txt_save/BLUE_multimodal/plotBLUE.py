@@ -5,8 +5,11 @@ import numpy
 
 # Carica il file CSV in un DataFrame di Pandas
 
+#df = pd.read_csv(r'D:\Leonardo\UAV_VQG\VQG_UAV\txt_save\BLUE_beam_search\BLUE_beam_search.csv')
+
 df = pd.read_csv(r'D:\Leonardo\UAV_VQG\VQG_UAV\txt_save\BLUE_multimodal\BLUE_UAV_multimodal.txt')
 
+#df = pd.read_csv(r'D:\Leonardo\UAV_VQG\VQG_UAV\txt_save\BLUE_gredy\BLUE_UAV.csv')
 
 # Estrae i valori numerici dalle stringhe delle colonne 'Epoch' e 'Loss'
 epochs = df['epochs']
@@ -27,9 +30,10 @@ plt.plot(epochs.astype(str), BLEU4, label="BLUE4")
 plt.legend()
 
 # Aggiunge un titolo e delle etichette agli assi
-plt.title('BLEU4')
+plt.title('BLEU')
 plt.xlabel('model')
 
 
 # Mostra il grafico
-plt.savefig('BLEU_UAV_beam_search_total.png')
+
+plt.savefig('BLEU_UAV_multinomial_total.png')
